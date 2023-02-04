@@ -15,7 +15,7 @@ function graduation(args){
     while (completedClass <= 12){
         if (grades < 4){
             countFaild++;
-            if(countFaild == 2){
+            if(countFaild === 2){
                 isExcluded = true;
                 break;
             }

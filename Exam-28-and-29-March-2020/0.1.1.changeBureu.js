@@ -5,7 +5,7 @@ function changeBureu(args) {
 
     let bitcoinSum = bitcoin * 1168;
     let changeDollars = chineseYuan *  0.15;
-    let changeToLeve = changeDollars * 1.76
+    let changeToLeva = changeDollars * 1.76
 
     let totalSum = (bitcoinSum + changeToLeve) / 1.95
     let commissionLeft = (totalSum * commission)/100

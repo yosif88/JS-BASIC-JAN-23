@@ -1,4 +1,4 @@
-function barcideGenerator(args) {
+function barcodeGenerator(args) {
     let start = Number(args[0]);
     let end = Number(args[1]);
 
